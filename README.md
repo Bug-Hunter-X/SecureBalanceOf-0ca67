@@ -1,0 +1,1 @@
+This repository demonstrates a reentrancy vulnerability in a Solidity smart contract's `balanceOf` function and its solution. The vulnerability allows an attacker to manipulate the balance during a reentrant call, potentially leading to asset theft or other exploits. The solution implements a check-effects-interaction pattern to prevent reentrancy attacks.
